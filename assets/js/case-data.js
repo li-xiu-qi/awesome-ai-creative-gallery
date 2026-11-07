@@ -782,3 +782,6 @@ Object.assign(window.GALLERY_CASE_DATA, {
     ]
   }
 });
+
+// Keep the original creation and translation prompts together for the combined example.
+window.GALLERY_CASE_DATA["咖啡机结构说明图"].prompts.push(...window.GALLERY_CASE_DATA["说明图翻译成西班牙语"].prompts);
