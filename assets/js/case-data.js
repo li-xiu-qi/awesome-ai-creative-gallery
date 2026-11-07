@@ -785,3 +785,34 @@ Object.assign(window.GALLERY_CASE_DATA, {
 
 // Keep the original creation and translation prompts together for the combined example.
 window.GALLERY_CASE_DATA["咖啡机结构说明图"].prompts.push(...window.GALLERY_CASE_DATA["说明图翻译成西班牙语"].prompts);
+
+Object.assign(window.GALLERY_CASE_DATA, {
+  "赛博朋克角色设定板": {
+    "kind": "reconstructed",
+    "source": "案例整理",
+    "prompts": [
+      "参考人物图，生成赛博朋克角色设定板，展示不同视角、动作与装备细节。"
+    ]
+  },
+  "动漫角色三视图": {
+    "kind": "reconstructed",
+    "source": "案例整理",
+    "prompts": [
+      "根据人物参考图生成动漫风格的正面、侧面和背面，保持人物和服装一致。"
+    ]
+  },
+  "真人风格人物三视图": {
+    "kind": "reconstructed",
+    "source": "案例整理",
+    "prompts": [
+      "根据人物参考图生成写实风格的正面、侧面和背面，保持人物和服装一致。"
+    ]
+  },
+  "科幻角色草图变成稿": {
+    "kind": "reconstructed",
+    "source": "案例整理",
+    "prompts": [
+      "参考上传的科幻角色草图，保持人物造型和色彩，补充材质、光线与细节。"
+    ]
+  }
+});
