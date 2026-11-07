@@ -113,6 +113,7 @@ window.GALLERY_CASE_DATA = {
     "url": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.6#compare-complexity"
   },
   "夜市活动海报": {
+    "modelNotes": {"zh": "模型对比：分别使用 GPT Image 2.5 与 2.6 生成同一主题的海报，展示不同版本的效果。", "en": "Model comparison: GPT Image 2.5 and 2.6 each generate a poster for the same brief."},
     "prompts": [
       "Design a clean Swiss-style poster on ivory paper. The only text is the headline NIGHT MARKET in large black type and the subtitle FRIDAY 7 PM underneath. A single red circle occupies the bottom right. Text must be spelled exactly and no words repeated."
     ],
@@ -120,6 +121,7 @@ window.GALLERY_CASE_DATA = {
     "url": "https://tryclico.com/models/gpt-image-2-6"
   },
   "香水瓶商品主图": {
+    "modelNotes": {"zh": "模型对比：分别使用 GPT Image 2.5 与 2.6 生成商品主图，对比画面效果。", "en": "Model comparison: GPT Image 2.5 and 2.6 each generate a product image for comparison."},
     "prompts": [
       "Square editorial product photograph of one cobalt-blue glass perfume bottle on pale travertine, with a soft shadow cast to the right and a thin peach blossom reflected in the glass. Keep the bottle to the left and the right third empty. No text."
     ],
@@ -127,6 +129,7 @@ window.GALLERY_CASE_DATA = {
     "url": "https://tryclico.com/models/gpt-image-2-6"
   },
   "陶艺师工作场景": {
+    "modelNotes": {"zh": "模型对比：分别使用 GPT Image 2.5 与 2.6 生成工作室人物肖像，对比画面效果。", "en": "Model comparison: GPT Image 2.5 and 2.6 each generate a studio portrait for comparison."},
     "prompts": [
       "Photorealistic portrait of a smiling adult ceramicist in an olive apron holding a white ceramic cup with both hands. Show both natural hands and the cup clearly, medium close-up, soft window light from the left, workshop in the background."
     ],
@@ -134,6 +137,7 @@ window.GALLERY_CASE_DATA = {
     "url": "https://tryclico.com/models/gpt-image-2-6"
   },
   "等距房间概念图": {
+    "modelNotes": {"zh": "模型对比：分别使用 GPT Image 2.5 与 2.6 生成等距房间，对比画面效果。", "en": "Model comparison: GPT Image 2.5 and 2.6 each generate an isometric room for comparison."},
     "prompts": [
       "Isometric cutaway illustration of a tiny room with a mustard sofa against the back wall, exactly two blue cushions on it, a green floor lamp to the left of the sofa, and a round white table in front. Off-white background, no words."
     ],
@@ -141,6 +145,7 @@ window.GALLERY_CASE_DATA = {
     "url": "https://tryclico.com/models/gpt-image-2-6"
   },
   "参考图改色": {
+    "modelNotes": {"zh": "模型对比：以同一参考图为起点，分别使用 GPT Image 2.5 与 2.6 修改颜色。", "en": "Model comparison: GPT Image 2.5 and 2.6 each edit the color of the same reference image."},
     "prompts": [
       "Edit the supplied product illustration. Change only the blue bottle body to dark forest green. Preserve its silhouette, the gold cap, the cream FIELD 07 label, the shadows and the position of everything else."
     ],
@@ -434,6 +439,7 @@ window.GALLERY_CASE_DATA = {
     ]
   },
   "地图跨季节连续编辑": {
+    "modelNotes": {"zh": "创作流程：GPT Image 2.6 Flare 连续编辑地图，制作夜景、冬景和节日版本；原帖还涉及动画制作，具体工具分工请查看原帖。", "en": "Workflow: GPT Image 2.6 Flare edits the map into night, winter and festive versions. The post also involves animation; see the source for the exact tool roles."},
     "kind": "reconstructed",
     "prompts": [
       "上传地图插画，连续制作夜景、冬季和节日三个版本。保持道路、建筑位置和地图构图不变，只改变光线、季节与装饰；动画如有需要另用工具制作。"
@@ -470,6 +476,7 @@ window.GALLERY_CASE_DATA = {
     ]
   },
   "GIF 动作草稿变视频": {
+    "modelNotes": {"zh": "创作流程：先制作 GIF 动作草稿，再扩展为视频；两个模型在各阶段的具体分工请查看原帖。", "en": "Workflow: a GIF motion draft is expanded into video. See the source for each model’s exact role."},
     "kind": "reconstructed",
     "prompts": [
       "先根据上传的角色图生成一个动作清晰的短循环 GIF，作为动作草稿；再把 GIF 输入支持图生视频的工具，扩展为更流畅的视频，保持角色身份和主要动作。"
@@ -760,6 +767,7 @@ Object.assign(window.GALLERY_CASE_DATA, {
     ]
   },
   "细胞呼吸之外：电子产品结构图": {
+    "modelNotes": {"zh": "模型对比：左侧为 GPT Image 2.5，右侧为 GPT Image 2.6，展示电子产品结构图的不同效果。", "en": "Model comparison: GPT Image 2.5 is shown on the left and GPT Image 2.6 on the right."},
     "kind": "reconstructed",
     "source": "案例整理",
     "prompts": [
