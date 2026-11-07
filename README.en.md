@@ -2,23 +2,25 @@
 
 [简体中文](README.md) · [English](README.en.md)
 
-A visual gallery of AI creativity, with original sources. The collection currently focuses on the latest creative uses of GPT Image 2.6 and will expand to more models.
+## Discover new ways to create with AI images
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-316c5b.svg)](LICENSE) ![Static site](https://img.shields.io/badge/Site-static-316c5b) ![Status](https://img.shields.io/badge/Content-continuously%20updated-d68854)
+From animated characters and stickers to design edits, icons and website visuals, explore creative examples, find inspiration in the images and follow the original sources to learn more.
 
-![Gallery homepage](assets/gallery-preview.png)
+The collection currently focuses on the latest **GPT Image 2.6** ideas, with more models planned. **We will keep updating the gallery. Star the project to follow new ideas as they arrive.**
 
-**We will keep updating this collection** with inspiring ideas, examples and original sources. If you find it useful, give it a Star to follow along.
+[![Explore the gallery](https://img.shields.io/badge/Explore-live%20gallery-316c5b)](https://li-xiu-qi.github.io/awesome-ai-creative-gallery/) [![License: MIT](https://img.shields.io/badge/License-MIT-316c5b.svg)](LICENSE) ![Continuously updated](https://img.shields.io/badge/Content-continuously%20updated-d68854)
 
-## ✨ Explore the gallery
+[![Gallery homepage](assets/gallery-preview.png)](https://li-xiu-qi.github.io/awesome-ai-creative-gallery/)
 
-Browse 49 examples across seven categories, including animation, games, icons, commercial design and image editing. Search by keyword, filter by category and follow each example to its source. The website supports Chinese and English.
+## Find your next idea
+
+Filter by use case or model, search by keyword and follow examples to their original sources. Cases without a confirmed model are marked accordingly. The bilingual gallery covers animation, stickers, games, icons, image editing, commercial design and more.
 
 ![Gallery examples](assets/gallery-cases.png)
 
-Some examples compare other versions or illustrate related workflows; consult the original source for the model version. GIF and SVG examples may involve additional tools.
+Some examples use other model versions or additional tools. Check the original sources for model versions and the actual workflows behind GIF and SVG results.
 
-## 🚀 Run locally
+## Run locally
 
 ```bash
 git clone https://github.com/li-xiu-qi/awesome-ai-creative-gallery.git
@@ -27,8 +29,8 @@ cd awesome-ai-creative-gallery
 
 Open `index.html` in a browser. No dependencies or build step are required.
 
-## 📎 Sources and license
+## Sources and license
 
-Original project code is available under the [MIT License](LICENSE). Third-party images, videos and works appearing in screenshots belong to their respective rights holders and are not licensed under MIT by this project. Follow the links on each example for the original creator and their terms of use. For rights concerns, please contact us via GitHub Issues.
+Original code is available under the [MIT License](LICENSE). Third-party images, videos and works in screenshots belong to their respective rights holders and are not licensed under MIT by this project. Follow each example to its creator and terms of use. For rights concerns, please contact us through GitHub Issues.
 
-This project is not officially affiliated with the model providers.
+This project is not officially affiliated with model providers.
