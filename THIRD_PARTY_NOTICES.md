@@ -1,6 +1,6 @@
 # Third-party notices
 
-Selected prompt examples are adapted from [ZeroLu/awesome-gpt-image](https://github.com/ZeroLu/awesome-gpt-image). Individual case pages link to their stated sources. The upstream repository includes the following license notice; individual third-party works may have separate rights.
+Selected prompt examples are adapted from [ZeroLu/awesome-gpt-image](https://github.com/ZeroLu/awesome-gpt-image). The 30 community cases and their mirrored media (39–68) were transferred from [xianyu110/awesome-gpt-images-2.6](https://github.com/xianyu110/awesome-gpt-images-2.6); individual cards link to the original X posts. Individual third-party works may have separate rights.
 
 ```
 MIT License

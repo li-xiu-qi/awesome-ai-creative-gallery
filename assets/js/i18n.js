@@ -15,6 +15,38 @@
   const contentOverrides={"SVG 火柴人换色": ["Recolor an SVG stick figure", "Explore color edits on an animated vector character."], "废品场游戏动画素材": ["Create pixel-game character animations", "Explore character and motion assets for a junkyard game."], "月球种花小游戏": ["Design a moon gardening game", "Explore a lunar gardening scene and character actions."], "GIF 动画预演": ["Preview character motion with an animation", "Preview a character’s motion in a short animation."], "人体呼吸系统": ["Illustrate the respiratory system", "Visualize the respiratory system for an educational explainer."], "大肥鱼表情包": ["Animate a character for stickers", "Explore expressions and motion for an animated character sticker."], "跳舞动作测试": ["Animate a dancing character", "Explore continuous dance motion for a character."], "模糊标志转矢量": ["Turn a blurry logo into vector art", "Convert a blurry logo into editable vector artwork."], "分镜或 SVG 接入动画制作": ["Use storyboards and vector assets in animation", "Explore animation workflows using storyboards or SVG assets."], "透明底角色与 UI 动效草稿": ["Create transparent character and UI motion drafts", "Explore transparent motion assets for characters and interfaces."], "公众号案例 · 搬家图标与品牌快闪": ["Create a matching set of moving-service icons", "Design 40 coordinated icons for moving, packing and booking."], "细胞呼吸之外：电子产品结构图": ["Create exploded product diagrams", "Compare two models on annotated exploded views of electronic products."], "网页改版接 Codex": ["From visual mockup to working website", "Generate a visual design and use Codex to implement the page."], "人物照片精修": ["Refine an iPhone photo with ChatGPT", "Compare an iPhone photo with its ChatGPT-refined version."], "草图转动态角色": ["Animate a hand-drawn character", "Turn a hand-drawn character into a short animation."], "猫闯进棒球场": ["A cat enters a baseball game", "Place a cat in a baseball game to create a playful scene."], "咖啡蒸汽循环": ["Create a coffee steam loop", "Animate rising steam above a hot drink in a looping scene."], "机器人草图转动画": ["Animate a robot sketch", "Turn a robot sketch into a moving character."], "宠物照片变动图": ["Animate a pet photo", "Add blinking and tail-wagging motion to a pet photo."], "香水瓶扫光": ["Create a perfume light-sweep animation", "Animate light across a stationary perfume bottle for a product visual."], "四格宠物漫画": ["Tell a pet story in four panels", "Explore visual storytelling across four continuous panels."], "农贸市场手机界面": ["Design a farmers-market app interface", "Create a visual mockup for a farmers-market app."], "指定风格的 UI 设计系统": ["Design a consistent UI system", "Explore a coherent visual style across pages, mobile screens and controls."], "同一画面比较复杂度": ["Compare football paper-cut compositions", "Compare paper-cut compositions for the same football theme."], "GIF 动作草稿变视频": ["Turn a GIF motion draft into a video", "Create a motion draft with GPT Image 2.6, then generate video with MiniMax H3."], "提灯猴子循环动画": ["Create a lantern-carrying monkey loop", "Animate a monkey carrying a lantern in a short loop."], "官方 SVG · 面包店标志": ["Create an editable bakery logo", "Design a bakery logo as an editable SVG."], "官方标注改图 · 花瓶换色": ["Recolor a marked vase", "Mark the vase in the image and request a targeted color edit."]};
   contentOverrides['咖啡机结构说明图']=['Create and translate a coffee-machine infographic','Create a coffee-machine infographic, then translate its text into Spanish while preserving the layout.'];
   Object.assign(contentOverrides, {"赛博朋克角色设定板": ["Cyberpunk character concept sheet", "Explore one character through turnarounds, action poses and equipment details."], "动漫角色三视图": ["Anime character turnaround", "Explore front, side and back views of the same anime character."], "真人风格人物三视图": ["Photorealistic character turnaround", "Show a consistent photorealistic character from front, side and back."], "科幻角色草图变成稿": ["Turn a sci-fi character sketch into artwork", "Use a sci-fi character sketch to create a detailed finished image."]});
+  Object.assign(contentOverrides, {
+    "社区 · 黑色连体衣棚拍时尚人像": ["Black jumpsuit studio fashion portrait", "Explore a studio fashion portrait generated with Images 2.6."],
+    "社区 · 奶油团子日常表情 GIF": ["Everyday cream-dumpling GIF stickers", "Create a set of everyday reaction stickers with GPT Images 2.6."],
+    "社区 · 蓝发女仆 / 大肥鱼反应表情 GIF": ["Blue-haired maid reaction GIF stickers", "Create loopable Chinese reaction stickers from a character reference."],
+    "社区 · 阳光花园动漫情侣连续编辑": ["Sunny-garden anime couple edits", "Test character, composition and color consistency across edits."],
+    "社区 · 橙色放射背景眼镜男肖像循环 GIF": ["Portrait GIF with an orange radial background", "Test a portrait and its background in a short loop."],
+    "社区 · Q 版角角女孩华丽礼服舞蹈 GIF": ["Chibi character dance GIFs", "Create paired dance loops for a chibi character."],
+    "社区 · 彩色花朵环绕宣传标题卡": ["Floral promotional title card", "Create a promotional title card with colorful flowers."],
+    "社区 · 原生 GIF 实为 Sprite Sheet 裁切": ["Native GIF and sprite-sheet workflow", "Observe the relationship between a native GIF and a sprite sheet."],
+    "社区 · 门镜 / 对讲监视器视角角色": ["Door-scope character viewpoint", "Use a character reference to create door-scope and monitor views."],
+    "社区 · RAM trap 迷因 GIF": ["RAM trap meme GIF", "Try a short looping meme animation with Images 2.6."],
+    "社区 · RETO 3D 相机效果尝试": ["RETO 3D camera effect test", "Explore a RETO 3D camera look with an animated result."],
+    "社区 · 花园橘猫肖像加抚摸动作 GIF": ["Garden cat portrait with a petting loop", "Turn a still portrait into a gentle petting animation."],
+    "社区 · 六宫格关键帧「自作聪明」对比": ["Six-frame storyboard comparison", "Test how the model handles a six-frame storyboard layout."],
+    "社区 ·「平成」主题 SNS GIF": ["Heisei-themed social GIF", "Generate a short social-media GIF from a one-line prompt."],
+    "社区 · 同提示词 Flare / Sunburst 对比四连": ["Flare and Sunburst comparison", "Compare Flare and Sunburst with the same prompt."],
+    "社区 · Sunburst 原生 GIF vs 合成 GIF": ["Native versus composited Sunburst GIF", "Compare native GIF output with a frame-composited workflow."],
+    "社区 · ChatGPT Image 2.6 GIF 稳定性测试": ["ChatGPT Image 2.6 GIF stability test", "Compare stability between single and batch GIF generation."],
+    "社区 · GIF / SVG 样例合集": ["GIF and SVG example set", "Browse examples of direct GIF and SVG generation."],
+    "社区 · 复古街机格斗角色动作 GIF": ["Retro arcade fighting-character GIFs", "Create 16-bit fighting characters and punch loops."],
+    "社区 · 参考图 + 日程定时角色消息": ["Reference image and scheduled character messages", "Combine reference images with scheduled character messages."],
+    "社区 · 蓝色大肥鱼 GIF 表情包": ["Blue whale GIF stickers", "Create consistent animated stickers from a character design."],
+    "社区 · Markup 红圈局部重着色模板": ["Markup red-circle recoloring template", "Use a red-circle markup to request a targeted recolor."],
+    "社区 · Chibi 角色多视角设定表": ["Chibi character multi-view sheet", "Generate a multi-view character sheet from one reference."],
+    "社区 · Images 2.6 GIF + 参考图功能演示": ["Images 2.6 GIF and reference-image demo", "See GIF generation and reference-image workflows together."],
+    "社区 · 官方 6 帧分镜 GIF 写法拆解": ["Six-frame storyboard template for GIFs", "Break a looping GIF into a reusable six-frame storyboard."],
+    "社区 · 六种材质无限循环 GIF 合集": ["Six-material infinite GIF loop", "Explore six material styles in one looping collection."],
+    "社区 · ChatGPT 免费档循环 GIF 入门": ["Looping GIFs on the free ChatGPT tier", "Review an entry workflow for looping GIFs."],
+    "社区 · ChatGPT App 内 Logo / 平面测试": ["ChatGPT App logo and graphic-design test", "Test logo and graphic-design results in the ChatGPT app."],
+    "社区 · 雷霆视角 POV 自拍提示词": ["Extreme-angle POV selfie prompt", "Explore a high-angle portrait prompt and its result."],
+    "社区 ·「收到」社畜表情 GIF": ["Work-chat acknowledgement GIF", "Create a looping reaction GIF for a work-chat context."]
+  });
   const cards=[...document.querySelectorAll('.card')];
   const stored=[];
   function bilingual(el, en){if(!el)return;stored.push({el,zh:el.textContent,en});}
@@ -27,7 +59,7 @@
     '.hero h1 em':['玩法图鉴','Creative Gallery'],
     '.hero p':['聚焦 GPT Image 2.6 的最新创作玩法，看看创作者如何制作动图、设计图标、编辑照片。部分案例涉及其他版本，具体以原始来源为准。','Explore creative image examples and prompts across models, from animation and design to image editing.'],
     '.hero-actions a':['探索全部案例 ↓','Explore the collection ↓'],
-    '.hero-actions span':['90 个案例 · 7 种玩法','92 examples · 7 categories'],
+    '.hero-actions span':['122 个案例 · 7 种玩法','122 examples · 7 categories'],
     '.toolbar h2':['按玩法浏览','Explore by category'],
     '.toolbar label span':['搜索案例','Search examples'],
     '.empty':['没有找到相关案例，试试其他关键词。','No examples found. Try a different search.']

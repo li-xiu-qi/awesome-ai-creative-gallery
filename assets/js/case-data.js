@@ -814,5 +814,47 @@ Object.assign(window.GALLERY_CASE_DATA, {
     "prompts": [
       "参考上传的科幻角色草图，保持人物造型和色彩，补充材质、光线与细节。"
     ]
+  },
+  "社区 · 蓝发女仆 / 大肥鱼反应表情 GIF": {
+    "source": "@op7418 X 原帖",
+    "url": "https://x.com/op7418/status/2118181972451438662",
+    "prompts": [
+      "请以我上传的大肥鱼图片为角色和画风参考，根据最后一行的「表情包主题」，直接制作一张可下载的动态 GIF 表情包。保留参考图中的蓝色渐变长发、呆毛、鲸鱼耳鳍、蓝色蝴蝶结、白色女仆头饰、蓝白女仆裙和大鲸鱼尾巴。保持原图的大头小身体 Q 版比例、圆脸和可爱画风，人物外观在所有帧中保持一致。正方形画面，纯白背景，固定镜头，主体居中，动画约 2～3 秒，无限循环，最终交付实际会播放的多帧 GIF 文件。表情包主题：【在这里填一句话，描述你想表达的梗、情绪或动作】"
+    ]
+  },
+  "社区 · 门镜 / 对讲监视器视角角色": {
+    "source": "@kabumira862571 X 原帖",
+    "url": "https://x.com/kabumira862571/status/2118220107487051883",
+    "prompts": [
+      "＊＊＊を“ドアスコープ”か“インターホン室内モニター”にしてください\n\n玄関先でこちらを見るキャラ。\n[＊＊＊]\nキャラは、アップロード画像を参照。\n顔・髪型・服装まで忠実に再現。\n晴れた住宅街、自然光。\nアスペクト比縦4:5。"
+    ]
+  },
+  "社区 ·「平成」主题 SNS GIF": {
+    "source": "@rem_rev X 原帖",
+    "url": "https://x.com/rem_rev/status/2118252486360498485",
+    "prompts": [
+      "平成を象徴する何か。SNS向けのGIF画像を生成して下さい。"
+    ]
+  },
+  "社区 · Markup 红圈局部重着色模板": {
+    "source": "@just_v3ra X 原帖",
+    "url": "https://x.com/just_v3ra/status/2118243623300993210",
+    "prompts": [
+      "Recolor the [object] inside the red circle to [new look].\nKeep [what must stay] and the rest of the image unchanged.\nRemove the red circle from the finished image."
+    ]
+  },
+  "社区 · 官方 6 帧分镜 GIF 写法拆解": {
+    "source": "@HappyS6688 X 原帖",
+    "url": "https://x.com/HappyS6688/status/2118319539498758475",
+    "prompts": [
+      "做一张循环 GIF 用的 6 帧分镜图，3 列 2 行、每格同尺寸。[角色]在[场景]里，先[动作1]，再[动作2]，最后[动作3]，第 6 帧自然过渡回第 1 帧。固定机位，角色、服装、背景不变。不要文字、边框和格子线。"
+    ]
+  },
+  "社区 · 雷霆视角 POV 自拍提示词": {
+    "source": "@johnAGI168 X 原帖",
+    "url": "https://x.com/johnAGI168/status/2118247837683044650",
+    "prompts": [
+      "A crisp, high-fidelity vertical POV selfie photograph captured from an extreme high angle with a 20mm ultra-wide lens perspective. Preserve natural skin texture, realistic cotton fabric and physically accurate contact shadows. Use a bedroom with light oak flooring and soft cream curtains, natural wide-angle perspective, deep depth of field and fine organic 35mm grain."
+    ]
   }
 });
